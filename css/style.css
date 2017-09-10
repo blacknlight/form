@@ -1509,6 +1509,9 @@ fieldset[disabled] .s-btn {
   .s-header-bg-overlay.-is-open .s-header__action-item {
     opacity: 1;
   }
+  .s-header__nav-menu-link {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 34em) {
