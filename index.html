@@ -23,14 +23,17 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" />
   <link href="vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css" />
   <link href="vendor/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css" />
-
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
   <!-- Theme Styles -->
   <link href="css/style.css" rel="stylesheet" type="text/css" />
   <link href="css/global/global.css" rel="stylesheet" type="text/css" />
-
+  <script src="js/modernizr.custom.js"></script>
   <!-- Favicon -->
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
 </head>
 <!-- End Head -->
 
@@ -68,6 +71,8 @@
       </div>
     </div>
     <!-- End Navbar -->
+
+    
 
     <!-- Overlay -->
     <div class="s-header-bg-overlay js__bg-overlay">
@@ -116,10 +121,18 @@
 
 
   <!-- <div class="s-swiper js__swiper-one-item">
-            <div class="swiper-wrapper"> -->
-  <div class="g-fullheight--xs g-bg-position--center" style="background: url('img/bg_1.png');">
-    <div class="container g-text-center--xs g-ver-center--xs">
-    </div>
+            <div class="swiper-wrapper"> 
+              style="background: url('img/bg_1.png');"-->
+  <div class="g-fullheight--xs g-bg-position--center" >
+    <div id="boxgallery" class="boxgallery" data-effect="effect-1">
+        <div class="panel"><img src="img/1.jpg" alt="Image 1"/></div>
+        <div class="panel"><img src="img/2.jpg" alt="Image 2"/></div>
+        <div class="panel"><img src="img/3.jpg" alt="Image 3"/></div>
+        <div class="panel"><img src="img/4.jpg" alt="Image 4"/></div>
+      </div>
+    <!-- <div class="container g-text-center--xs g-ver-center--xs">
+        
+    </div> -->
   </div>
   <!-- </div>
 
@@ -383,8 +396,12 @@
   <script type="text/javascript" src="js/components/parallax.min.js"></script>
   <script type="text/javascript" src="js/components/google-map.min.js"></script>
   <script type="text/javascript" src="js/components/wow.min.js"></script>
+  <script type="text/javascript" src="js/classie.js"></script>
+  <script type="text/javascript" src="js/boxesFx.js"></script>
   <!--========== END JAVASCRIPTS ==========-->
-
+  <script>
+    new BoxesFx(document.getElementById('boxgallery'));
+</script>
 </body>
 <!-- End Body -->
 
