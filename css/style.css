@@ -1134,6 +1134,7 @@ fieldset[disabled] .s-btn {
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+
 }
 
 /* Container
@@ -1638,6 +1639,18 @@ fieldset[disabled] .s-btn {
   background: #222324;
 }
 
+.s-header__shrink .isoText{
+  font-size: 0.75rem !important;
+  position: absolute;
+}
+
+.s-header__shrink .s-header__container{
+  padding: .0 1.875rem;
+}
+
+
+
+
 /*----------------------------------
   Header v2
 ------------------------------------*/
@@ -2110,6 +2123,51 @@ fieldset[disabled] .s-btn {
 }
 
 /*----------------------------------
+  Scroll Down
+------------------------------------*/
+.s-scroll-down  {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
+  bottom: 0.8rem;
+  display: block;
+  width: 1.875rem;
+  height: 3rem;
+  z-index: 9;
+  background: #FFCC00;
+  border-radius: 3.125rem;
+  text-align: center;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.s-scroll-down:before {
+  display: block;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-family: themify;
+  color: #fff;
+  line-height: 3rem;
+  content: "\e627";
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.s-back-to-top:hover {
+  background: #fff;
+}
+
+.s-back-to-top:hover:before {
+  color: #FFCC00;
+}
+
+.s-back-to-top:focus, .s-back-to-top:hover {
+  text-decoration: none;
+}
+
+/*----------------------------------
   Cubeportfolio
 ------------------------------------*/
 .s-portfolio__filter-v1-item {
@@ -2382,4 +2440,17 @@ fieldset[disabled] .s-btn {
 .grid {
   margin-top: 70px;
   margin-bottom: 110px
+}
+
+.isoText{
+  color:black;
+  font-size: 1rem !important;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  background-image: url('../img/bg.png');
+  
 }

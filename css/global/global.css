@@ -885,6 +885,10 @@
   height: 100vh;
 }
 
+.g-90height{
+  height: 90vh;
+}
+
 /* Small screen / phone */
 @media (min-width: 34em) {
   .g-fullheight--sm {
@@ -2136,6 +2140,7 @@
 
 .g-margin-b-0--xs {
   margin-bottom: 0rem;
+  text-align: justify;
 }
 
 .g-margin-b-5--xs {
