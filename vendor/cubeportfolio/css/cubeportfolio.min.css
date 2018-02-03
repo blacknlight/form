@@ -883,7 +883,7 @@
   border: 1px solid #ECECEC;
   color: #888888;
   cursor: pointer;
-  font: 400 12px/32px "Open Sans", sans-serif;
+  font: 400 16px/32px "Open Sans", sans-serif;
   margin: 0 10px 10px 0;
   overflow: visible;
   padding: 0 17px;
@@ -900,9 +900,12 @@
 
 .cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
   background-color: #545454;
-  color: #fff;
+  color: #ffcc00;
   border-color: #5d5d5d;
-  cursor: default
+  cursor: pointer;
+  transform:scale(1.2);
+  transition: 0.5s;
+
 }
 
 .cbp-l-filters-button .cbp-filter-counter {

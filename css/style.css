@@ -2129,10 +2129,10 @@ fieldset[disabled] .s-btn {
   position: absolute;
   left: 50%;
   transform: translateX(-50%) rotate(180deg);
-  bottom: 0.8rem;
+  bottom: 1rem;
   display: block;
   width: 1.875rem;
-  height: 3rem;
+  height: 4rem;
   z-index: 9;
   background: #FFCC00;
   border-radius: 3.125rem;
@@ -2144,26 +2144,26 @@ fieldset[disabled] .s-btn {
 
 .s-scroll-down:before {
   display: block;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-style: normal;
   font-family: themify;
   color: #fff;
-  line-height: 3rem;
+  line-height: 4rem;
   content: "\e627";
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-.s-back-to-top:hover {
+.s-scroll-down:hover {
   background: #fff;
 }
 
-.s-back-to-top:hover:before {
-  color: #FFCC00;
+.s-scroll-down:hover:before {
+  color: #000;
 }
 
-.s-back-to-top:focus, .s-back-to-top:hover {
+.s-scroll-down:focus, .s-scroll-down:hover {
   text-decoration: none;
 }
 

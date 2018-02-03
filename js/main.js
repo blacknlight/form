@@ -23,10 +23,10 @@
         }],
         defaultFilter: '*',
         animationType: 'flipOutDelay',
-        gapHorizontal: 0,
-        gapVertical: 0,
+        gapHorizontal: 5,
+        gapVertical: 5,
         gridAdjustment: 'responsive',
-        caption: 'zoom',//'overlayBottomAlong',
+        caption: '',//'overlayBottomAlong',
         displayType: 'sequentially',
         displayTypeSpeed: 100,
 
