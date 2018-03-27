@@ -4,7 +4,7 @@
     // init cubeportfolio
     $('#js-grid-lightbox-gallery').cubeportfolio({
         filters: '#js-filters-lightbox-gallery2',
-        layoutMode: 'grid',
+        layoutMode: 'mosaic',
         mediaQueries: [{
             width: 1500,
             cols: 4,
@@ -22,11 +22,11 @@
             }
         }],
         defaultFilter: '*',
-        animationType: 'flipOutDelay',
-        gapHorizontal: 5,
-        gapVertical: 5,
+        animationType: 'scaleSides',
+        gapHorizontal: 0,
+        gapVertical: 0,
         gridAdjustment: 'responsive',
-        caption: '',//'overlayBottomAlong',
+        caption: 'overlayBottomAlong',
         displayType: 'sequentially',
         displayTypeSpeed: 100,
 
