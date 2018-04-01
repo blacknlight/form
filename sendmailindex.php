@@ -1,12 +1,9 @@
 <?php
 
-$fname = $_REQUEST['fname'];
-$email = $_REQUEST['email'];
-$phone = $_REQUEST['phone'];
-$company = $_REQUEST['company'];
-$city = $_REQUEST['city'];
-$country = $_REQUEST['country'];
-$message = $_REQUEST['message'];
+$fname = $_REQUEST['iname'];
+$email = $_REQUEST['iemail'];
+$phone = $_REQUEST['iphone'];
+$message = $_REQUEST['imessage'];
 
 
 $to="formationsarchitect@gmail.com";
@@ -35,18 +32,6 @@ $msg ="<BR><BR>
 	  <td bgcolor='#FFFFFF' style='font-family:arial; color:black; font-size:12px; font-weight:normal;'>".$email."</td>
 	</tr>
 	<tr>
-	  <td align='right' bgcolor='#237dae'style='font-family:arial; color:white; font-size:12px; font-weight:bold;'  width='20%'>Company:</td>
-	  <td bgcolor='#FFFFFF' style='font-family:arial; color:black; font-size:12px; font-weight:normal;'>".$company."</td>
-	</tr>
-	<tr>
-	  <td align='right' bgcolor='#237dae'style='font-family:arial; color:white; font-size:12px; font-weight:bold;'  width='20%'>City:</td>
-	  <td bgcolor='#FFFFFF' style='font-family:arial; color:black; font-size:12px; font-weight:normal;'>".$city."</td>
-	</tr>
-	<tr>
-	  <td align='right' bgcolor='#237dae'style='font-family:arial; color:white; font-size:12px; font-weight:bold;'  width='20%'>Country:</td>
-		<td bgcolor='#FFFFFF' style='font-family:arial; color:black; font-size:12px; font-weight:normal;'>".$country."</td>
-	</tr>
-	<tr>
 	  <td align='right' bgcolor='#237dae'style='font-family:arial; color:white; font-size:12px; font-weight:bold;'  width='20%'>Message:</td>
 		<td bgcolor='#FFFFFF' style='font-family:arial; color:black; font-size:12px; font-weight:normal;'>".$message."</td>
 	</tr>
@@ -55,6 +40,6 @@ $msg ="<BR><BR>
 
 mail($to,"Enquiry",$msg,$headers); 
 
-header("Location:contacts.html");
+header("Location:index.html");
 
 ?>
