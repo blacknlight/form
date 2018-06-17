@@ -168,7 +168,7 @@ select:focus {
 
 .cfy-item-add, .cfy-item-sub {
   padding: 3px 0 4px;
-  font: 14px Lato, sans-serif;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   cursor: pointer;
   background: rgba(247, 247, 247, .37);
   color: #464647;

@@ -16,7 +16,7 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: Lato, sans-serif;
+  font-family: calibri, sans-serif;
   color: #222324;
   line-height: 1.6;
   background-color: #fff;
@@ -1141,7 +1141,7 @@ fieldset[disabled] .s-btn {
 ------------------------------ */
 .s-header__container {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: table;
   padding: .75rem 1.875rem;
 }
@@ -1985,7 +1985,7 @@ fieldset[disabled] .s-btn {
 .s-header-v2__dropdown-menu-link {
   font-size: 0.875rem;
   font-weight: 400;
-  font-family: Lato, sans-serif;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   color: rgba(34, 35, 36, 0.7) !important;
   padding: .4375rem 2rem .4375rem 1.375rem !important;
   transition-duration: 300ms;
@@ -2452,5 +2452,6 @@ fieldset[disabled] .s-btn {
   height: 100%;
   max-height: 100%;
   background-image: url('../img/bg.png');
-  
+  background-repeat: no-repeat;
+  background-size: cover;
 }
