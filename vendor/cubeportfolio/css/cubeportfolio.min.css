@@ -214,7 +214,7 @@
 }
 
 @-webkit-keyframes cbp-rotation {
-  0 {
+  0% {
     -webkit-transform: rotate(0deg)
   }
   100% {
@@ -223,7 +223,7 @@
 }
 
 @keyframes cbp-rotation {
-  0 {
+  0% {
     transform: rotate(0deg)
   }
   100% {
@@ -816,7 +816,7 @@
   text-transform: uppercase;
   display: inline-block;
   -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out
+  transition: all .3s ease-in-out;
 }
 
 .cbp-l-filters-alignRight .cbp-filter-item:hover {
@@ -875,7 +875,8 @@
 }
 
 .cbp-l-filters-button {
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  width:100%;
 }
 
 .cbp-l-filters-button .cbp-filter-item {
@@ -884,13 +885,15 @@
   color: #888888;
   cursor: pointer;
   font: 400 16px/32px "Open Sans", sans-serif;
-  margin: 0 10px 10px 0;
+ /* margin: 0 10px 10px 0;*/
   overflow: visible;
   padding: 0 17px;
   position: relative;
   display: inline-block;
   -webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out;
-  transition: color .3s ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out
+  transition: color .3s ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out;
+  width:19%;
+  text-align: center;
 }
 
 .cbp-l-filters-button .cbp-filter-item:hover {
@@ -903,9 +906,8 @@
   color: #ffcc00;
   border-color: #5d5d5d;
   cursor: pointer;
-  transform:scale(1.2);
-  transition: 0.5s;
-
+  /*transform:scale(1.2);
+  transition: 0.5s;*/
 }
 
 .cbp-l-filters-button .cbp-filter-counter {

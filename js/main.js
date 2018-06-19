@@ -4,7 +4,7 @@
     // init cubeportfolio
     $('#js-grid-lightbox-gallery').cubeportfolio({
         filters: '#js-filters-lightbox-gallery2',
-        layoutMode: 'mosaic',
+        layoutMode: 'grid',
         mediaQueries: [{
             width: 1500,
             cols: 4,
