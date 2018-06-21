@@ -700,7 +700,7 @@
 }
 
 .cbp-l-filters-alignCenter .cbp-filter-item {
-  color: #949494;
+  color: #000000;
   cursor: pointer;
   font: 400 13px/21px "Open Sans", sans-serif;
   padding: 0 12px;
@@ -882,9 +882,9 @@
 .cbp-l-filters-button .cbp-filter-item {
   background-color: #FFFFFF;
   border: 1px solid #ECECEC;
-  color: #888888;
+  color: #000000;
   cursor: pointer;
-  font: 400 16px/32px "Open Sans", sans-serif;
+  font: 400 16px/32px "calibri","Open Sans", sans-serif;
  /* margin: 0 10px 10px 0;*/
   overflow: visible;
   padding: 0 17px;
@@ -893,8 +893,17 @@
   -webkit-transition: color .3s ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out;
   transition: color .3s ease-in-out, background-color .3s ease-in-out, border-color .3s ease-in-out;
   width:19%;
-  text-align: center;
+  /*text-align: center;*/
+  font-weight: bold;
 }
+
+@media only screen and (max-width: 768px) {
+  .cbp-l-filters-button .cbp-filter-item { 
+    font: 400 13px/32px "calibri","Open Sans", sans-serif;
+    padding: 0 5px;
+  }
+}
+
 
 .cbp-l-filters-button .cbp-filter-item:hover {
   color: #545454;
